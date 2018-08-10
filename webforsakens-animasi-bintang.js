@@ -8,7 +8,7 @@
 
 // JavaScript Document<script type='text/javascript'>
             // <![CDATA[
-            var colour="white";
+            var colour="red";
             var sparkles=65;
      
             var x=ox=400;
