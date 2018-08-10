@@ -53,7 +53,7 @@
 				sty[i] = 0.7 + Math.random();     // set step variables
 					if (ie4up||ns6up) {
 				  if (i == 0) {
-					document.write("<div id=\"dot"+ i +"\" style=\"POSITION: absolute; Z-INDEX: "+ i +"; VISIBILITY: visible; TOP: 15px; LEFT: 15px;\"><a href=\"http://webforsakens.tk\"><img src="+snowsrc+" border=\"0\"><\/a><\/div>");
+					document.write("<div id=\"dot"+ i +"\" style=\"POSITION: absolute; Z-INDEX: "+ i +"; VISIBILITY: visible; TOP: 15px; LEFT: 15px;\"><a href=\"http://facebook.com/hacking.forsakens\"><img src="+snowsrc+" border=\"0\"><\/a><\/div>");
 				  } else {
 					document.write("<div id=\"dot"+ i +"\" style=\"POSITION: absolute; Z-INDEX: "+ i +"; VISIBILITY: visible; TOP: 15px; LEFT: 15px;\"><img src="+snowsrc+" border=\"0\"><\/div>");
 				  }
