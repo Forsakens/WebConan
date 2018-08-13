@@ -1,17 +1,22 @@
 
 /* Hacking Forsakens Verified Author */
-/* CSS Multi Author Box */
-.authorboxwrap{background:#444;color:#fff;margin:20px auto 0 auto;padding:20px;overflow:hidden;}
-.avatar-container{float:left;padding:10px;margin:0 20px 0 0;background:rgba(0,0,0,0.2)}
-.avatar-container img{width:90px;height:auto;max-width:100%!important;transition:all .3s}
-.author_description_container h4{font-size:18px;display:block;margin:0;margin-bottom:2px}
-.author_description_container h4 a{color:#fff}
-.author_description_container p{margin:0;font-size:14px;margin-bottom:8px;line-height:25px;font-weight:400}
-.social-links li{list-style:none!important;float:left}
-.social-links a{border-bottom:none}
-.social-links a:after,.social-links a:before{content:none!important}
-.social-links li a{color:#fff;font-size:12px;text-align:center;display:inline-block;padding:0;margin:0 10px 0 0;width:24px;height:24px;line-height:24px;border-radius:100%}
-.social-links li:nth-child(1):hover a{background:#516ca4;}
-.social-links li:nth-child(2):hover a{background:#00c3f3;}
-.social-links li:nth-child(3):hover a{background:#f20000;}
-.social-links li a:hover{color:#fff}
+#main-wrapper{width:64.98%;float:left;margin:0;padding:0;word-wrap:break-word;border-right:1px solid rgba(0,0,0,0.1)}
+.main .Blog{border-bottom-width:0}
+.main .widget{margin:0;padding:0}
+.date-header{display:none!important}
+h1.post-title.entry-title,h2.post-title.entry-title {font-size:18px;margin:0 0 15px;}
+h1.post-title.entry-title a,h2.post-title.entry-title a{color:#000;}
+h1.post-title.entry-title a:hover,h2.post-title.entry-title a:hover{color:#138be6;}
+.post{background:#fff;position:relative;margin:0 0 20px 0;padding:0}
+.post-body {margin:0;line-height:1.7em;text-align:left;font-size:15px;padding:20px;}
+.post-info abbr {border:0;}
+.post-timestamp,.author-info,.comment-info,.label-info{padding:0 10px 0 0}
+.post-body img,.post-body video,.post-body object {background:#fafafa;max-width:100%}
+.breadcrumbs{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-size:12px;padding:20px;border-bottom:1px solid rgba(0,0,0,0.14);font-weight:700;}
+.breadcrumbs a{color:#000;margin:0 2px;line-height:normal;}
+.breadcrumbs .breadhome a{margin:0 5px 0 0}
+.breadcrumbs .breadlabel:last-child{margin:0 0 0 4px}
+.breadcrumbs a:hover{color:#138be6;}
+.post-footer{line-height:1.6em}
+.post-footer a{color:#97b28e;}
+.feed-links{clear:both;line-height:2.5em;}
