@@ -1,22 +1,28 @@
 
 /* Hacking Forsakens Verified Author */
-#main-wrapper{width:64.98%;float:left;margin:0;padding:0;word-wrap:break-word;border-right:1px solid rgba(0,0,0,0.1)}
-.main .Blog{border-bottom-width:0}
-.main .widget{margin:0;padding:0}
-.date-header{display:none!important}
-h1.post-title.entry-title,h2.post-title.entry-title {font-size:18px;margin:0 0 15px;}
-h1.post-title.entry-title a,h2.post-title.entry-title a{color:#000;}
-h1.post-title.entry-title a:hover,h2.post-title.entry-title a:hover{color:#138be6;}
-.post{background:#fff;position:relative;margin:0 0 20px 0;padding:0}
-.post-body {margin:0;line-height:1.7em;text-align:left;font-size:15px;padding:20px;}
-.post-info abbr {border:0;}
-.post-timestamp,.author-info,.comment-info,.label-info{padding:0 10px 0 0}
-.post-body img,.post-body video,.post-body object {background:#fafafa;max-width:100%}
-.breadcrumbs{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-size:12px;padding:20px;border-bottom:1px solid rgba(0,0,0,0.14);font-weight:700;}
-.breadcrumbs a{color:#000;margin:0 2px;line-height:normal;}
-.breadcrumbs .breadhome a{margin:0 5px 0 0}
-.breadcrumbs .breadlabel:last-child{margin:0 0 0 4px}
-.breadcrumbs a:hover{color:#138be6;}
-.post-footer{line-height:1.6em}
-.post-footer a{color:#97b28e;}
-.feed-links{clear:both;line-height:2.5em;}
+/* Custom Cookies Info Dark */
+.cookie-choices-info{background-color:rgba(56,66,75,.97)!important;line-height:normal!important;top:initial!important;bottom:0!important;font-family:inherit!important;-webkit-transform:translateZ(0);}
+.cookie-choices-info .cookie-choices-text{font-size:14px!important;color:#cee6ea!important}
+.cookie-choices-info .cookie-choices-button{font-weight:normal!important;color:#fff!important;margin-left:5px!important;padding:3px 6px!important;background:#f64c3b!important;letter-spacing:.8px;transition:all .4s linear}
+.cookie-choices-info .cookie-choices-button:nth-child(2){background:#f68c2e!important;transition:all .4s linear}
+.cookie-choices-info .cookie-choices-button:hover,.cookie-choices-info .cookie-choices-button:nth-child(2):hover{background:#282f36!important;transition:all .1s linear}
+/* Arlina Fixed Layout */
+.CSS_LIGHTBOX {z-index:999999!important;}
+.CSS_LIGHTBOX_BG_MASK_TRANSPARENT {opacity:.95!important;}
+.CSS_LIGHTBOX_SCALED_IMAGE_IMG {width:auto!important;max-width:100%;box-shadow:0 0 10px rgba(0,0,0,0.1);}
+.CSS_LIGHTBOX_BTN_CLOSE {background: url('https://4.bp.blogspot.com/-cmZSAe4hgWI/V0K-3C5xiHI/AAAAAAAAG90/2btatUgRsM4qf8HIc7QweuToTkRqRNeuACLcB/s1600/delete.png') no-repeat!important;width:32px!important;height:32px!important;top:30px!important;opacity:0.7;transition:all .3s;}
+.CSS_LIGHTBOX_BTN_CLOSE:hover{opacity:1;}
+.CSS_LIGHTBOX_BTN_CLOSE_POS {right:10px!important;}
+.CSS_LIGHTBOX_BG_MASK{background-color:rgba(0,0,0,0.8)!important}
+.CSS_LIGHTBOX_FILMSTRIP{background-color:rgba(0,0,0,0.5)!important}
+.quickedit,#ContactForm1,#ContactForm1 br {display:none}
+.post,.widget-content,.breadcrumbs,.banner .widget,.banner2 .widget,#blog-pager,#comments{}
+.banner .widget-content,.banner2 .widget-content,#LinkList215 .widget-content{}
+#BlogArchive1 li.archivedate {padding:0;}
+#BlogArchive1 #ArchiveList ul.posts li {padding:0 0 0 22px;line-height:normal;}
+#ArchiveList{padding:10px}
+#ArchiveList select{width:100%;padding:10px;margin-bottom:5px;border:1px solid rgba(201,201,201,0.52);font-size:13px;font-family:'Roboto',sans-serif}
+/* Arlina Template Wrapper */
+.maxwrap {max-width:970px;margin:0 auto;}
+#wrapper{background:#fff;display:block;position:relative;overflow:hidden;max-width:970px;margin:0 auto;padding:0;}
+#content-wrapper {display:block;position:relative;overflow:hidden;padding:0;}
