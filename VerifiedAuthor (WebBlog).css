@@ -1,0 +1,61 @@
+
+/* Hacking Forsakens Verified Author */
+
+/* CSS Multi Author Box */
+.authorboxwrap{background:#444;color:#fff;margin:20px auto 0 auto;padding:20px;overflow:hidden;}
+.avatar-container{float:left;padding:10px;margin:0 20px 0 0;background:rgba(0,0,0,0.2)}
+.avatar-container img{width:90px;height:auto;max-width:100%!important;transition:all .3s}
+.author_description_container h4{font-size:18px;display:block;margin:0;margin-bottom:2px}
+.author_description_container h4 a{color:#fff}
+.author_description_container p{margin:0;font-size:14px;margin-bottom:8px;line-height:25px;font-weight:400}
+.social-links li{list-style:none!important;float:left}
+.social-links a{border-bottom:none}
+.social-links a:after,.social-links a:before{content:none!important}
+.social-links li a{color:#fff;font-size:12px;text-align:center;display:inline-block;padding:0;margin:0 10px 0 0;width:24px;height:24px;line-height:24px;border-radius:100%}
+.social-links li:nth-child(1):hover a{background:#516ca4;}
+.social-links li:nth-child(2):hover a{background:#00c3f3;}
+.social-links li:nth-child(3):hover a{background:#f20000;}
+.social-links li a:hover{color:#fff}
+/* Hacking Forsakens Post Navigation */
+#blog-pager-newer-link,#blog-pager-older-link{font-size:100%}
+.blog-pager-older-link,.home-link,.blog-pager-newer-link{padding:0}
+.halaman{margin:auto;padding:0;border-bottom:1px solid rgba(0,0,0,0.08);}
+.halaman-kanan,.halaman-kiri{color:#141924;background:0 0;width:50%;position:relative;margin:0}
+.halaman-kiri{background:#fff;width:50%;float:left;margin:0;text-align:left;padding:20px 20px 20px 30px;height:72px;border-right:1px solid rgba(0,0,0,0.08);}
+.halaman-kanan{background:#fff;width:50%;float:right;margin:0;text-align:right;padding:20px 30px 20px 20px;height:72px}
+.halaman-kanan:hover,.halaman-kiri:hover{background:#e74c3c;color:rgba(255,255,255,1);}
+.halaman-kanan:hover a,.halaman-kiri:hover a{color:rgba(255,255,255,1);}
+.halaman-kanan a,.halaman-kiri a{color:#111;font-size:14px;font-weight:500;line-height:1.3em;transition:initial}
+.current-pageleft,.current-pageright,.halaman-kanan a,.halaman-kiri a{font-size:14px;font-family:Roboto,Arial,sans-serif;font-weight:700;background:transparent;text-decoration:none;line-height:normal;transition:initial}
+.halaman-kanan a:hover,.halaman-kanan:hover .pager-title-left,.halaman-kiri a:hover,.halaman-kiri:hover .pager-title-left,.halaman-kiri:hover .current-pageleft,.halaman-kanan:hover .current-pageright{color:rgba(255,255,255,1);}
+#blog-pager,.isihalaman-kanan,.isihalaman-kiri{margin:0}
+.panahkanan,.panahkiri{position:absolute;top:50%;margin-top:-8px}
+.panahkiri{left:10px}
+.panahkanan{right:10px}
+.comments-content {display:block;position:relative;margin-top:20px;}
+#HTML1{width:100%;max-width:300px}
+/* CSS Item Responsive */
+@media only screen and (max-width:960px){
+.bagidua,.bagitiga,.bagiempat{-webkit-column-count:2;-moz-column-count:2;column-count:2;}}
+@media only screen and (max-width:800px){
+#HTML1{max-width:100%;position:relative!important;top:initial!important}}
+@media only screen and (max-width:640px){
+h1.post-title.entry-title,h2.post-title.entry-title{font-size:16px;}
+#related-post h4{margin:0 0 5px;border-bottom:1px solid rgba(0,0,0,0.12)}
+ul#related-summary li{float:left;list-style:none;overflow:hidden;width:50%;padding:10px 0;height:160px;margin:0}
+ul#related-summary li a.relinkjdulx{font-size:12px;font-weight:400;padding:5px 5px 5px 4px}
+ul#related-summary li .overlaytext{float:left;display:inline-block;font-size:12px;font-weight:700;line-height:normal;overflow:hidden;padding:0}
+ul#related-summary li .overlayb{display:inline-block;float:left;height:auto;margin:0 4px}
+ul#related-summary li img{height:auto;}
+.sharesimply a.fb,.sharesimply a.gp,.sharesimply a.tw{width:100%}
+.bagidua,.bagitiga,.bagiempat{-webkit-column-count:1;-moz-column-count:1;column-count:1;}
+#searchbar form:after {right:12%;top:40%;}}
+@media screen and (max-width:603px){
+.halaman-kanan,.halaman-kiri{width:100%;padding:15px 0;height:auto;border:0;}
+.halaman-kanan{background:#95a5a6;color:#fff}
+.halaman-kiri{background:#fff;}
+.halaman-kanan a{color:#fff}
+.isihalaman-kiri{margin-left:40px!important}
+.isihalaman-kanan{margin-right:40px!important}
+.panahkanan,.panahkiri{margin-top:-6px}
+.avatar-container,.label-info{display:none}}
